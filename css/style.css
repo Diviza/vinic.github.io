@@ -1,0 +1,40 @@
+body {
+background:url(../img/bg.jpg);
+background-size:cover;
+}
+.call{
+  margin-top:25%;
+}
+.call h1{
+  font-family:'Abril Fatface',serif;
+  color:#fff;
+  font-size:7em;
+  font-weight:lighter;
+}
+
+.call h4{
+  font-family:'Roboto',sans-serif;
+  color:#fff;
+  letter-spacing:18px;
+  font-size:2em;
+  text-transform:uppercase;
+  font-weight:200;
+}
+
+
+button.btn.btn-lg.btn-default{
+  transition: all .8s;
+  margin-top:5%;
+  background: transparent;
+color: #fff;
+letter-spacing: 4px;
+text-align: left;
+border-radius:0px;
+border: 1px #fff solid;
+}
+
+button.btn.btn-lg.btn-default:hover{
+  transition: all .3s;
+  border: 0px #fff solid;
+  border-bottom: 1px #fff solid;
+}
